@@ -1,0 +1,7 @@
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskB\TaskB\bin\Debug\TaskB.exe.config
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskB\TaskB\bin\Debug\TaskB.exe
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskB\TaskB\bin\Debug\TaskB.pdb
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskB\TaskB\obj\Debug\TaskB.csprojAssemblyReference.cache
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskB\TaskB\obj\Debug\TaskB.csproj.CoreCompileInputs.cache
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskB\TaskB\obj\Debug\TaskB.exe
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskB\TaskB\obj\Debug\TaskB.pdb

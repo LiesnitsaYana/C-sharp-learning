@@ -1,0 +1,7 @@
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskD\TaskD\bin\Debug\TaskD.exe.config
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskD\TaskD\bin\Debug\TaskD.exe
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskD\TaskD\bin\Debug\TaskD.pdb
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskD\TaskD\obj\Debug\TaskD.csprojAssemblyReference.cache
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskD\TaskD\obj\Debug\TaskD.csproj.CoreCompileInputs.cache
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskD\TaskD\obj\Debug\TaskD.exe
+D:\Яна\QA\Softserve\C#\HomeWork2\TaskD\TaskD\obj\Debug\TaskD.pdb

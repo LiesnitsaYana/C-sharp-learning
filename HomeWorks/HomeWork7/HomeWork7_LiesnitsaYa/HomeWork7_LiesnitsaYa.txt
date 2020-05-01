@@ -1,0 +1,97 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Security;
+
+namespace HomeWork7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string readPath = @"D:\Яна\C# SoftServe\HomeWorks\HomeWork7\phones.txt";
+            string writePath = @"D:\Яна\C# SoftServe\HomeWorks\HomeWork7\phones2.txt";
+            string writePathNewFormat = @"D:\Яна\C# SoftServe\HomeWorks\HomeWork7\New.txt";
+            string phoneAndPerson = "";
+
+            Dictionary<string,string> phoneBook = new Dictionary<string, string>();
+
+            try
+            {
+                using (StreamReader sr = new StreamReader(readPath, System.Text.Encoding.Default))
+                {
+                    while ((phoneAndPerson = sr.ReadLine()) != null)
+                    {
+                        string[] pairs = phoneAndPerson.Split(':', '.');
+                        if (pairs.Length == 2)
+                        {
+                            phoneBook.Add(pairs[0], pairs[1].Trim());
+                        }
+                    }
+                    sr.Close();
+                }
+
+                using (StreamWriter sw = new StreamWriter(writePath, true, System.Text.Encoding.Default))
+                {
+                    foreach (var namesPhones in phoneBook.Values)
+                    {
+                        sw.WriteLine(namesPhones);
+                    }
+                    sw.Close();
+                }
+
+                Console.WriteLine("Enter a name from the list below:" +
+                                  "Jon, Daenerys, Arya, Sansa, Tyrion, Missandei, Davos, Worm, Varys.");
+                string nameInputed = Convert.ToString(Console.ReadLine());
+                if (phoneBook.ContainsKey(nameInputed))
+                    Console.WriteLine($"The phone number of {nameInputed} is {phoneBook[nameInputed]}");
+                else
+                {
+                    Console.WriteLine($"There is no {nameInputed} in the phone book!");
+                }
+
+                Console.ReadKey();
+
+                using (StreamWriter swn = new StreamWriter(writePathNewFormat, false, System.Text.Encoding.Default))
+                {
+                    foreach (string phoneNumber in phoneBook.Values)
+                    {
+                        if (phoneNumber.StartsWith("8"))
+                        {
+                            swn.WriteLine("+3" + phoneNumber);
+                        }
+                        else
+                        {
+                            swn.WriteLine(phoneNumber);
+                        }
+                    }
+                    swn.Close();
+                }
+            }
+            catch (OutOfMemoryException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (SecurityException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Wrong format!");
+            }
+        }
+    }
+}

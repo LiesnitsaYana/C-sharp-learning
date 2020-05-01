@@ -1,0 +1,174 @@
+namespace HomeWork5
+{
+    interface IDeveloper
+    {
+        string Tool { get; set; }
+
+        void Create();
+        void Destroy();
+
+
+    }
+}
+using System;
+
+namespace HomeWork5
+{
+    public class Builder : IDeveloper, IComparable
+
+    {
+        private string _tool;
+
+        public string Tool
+        {
+            get { return _tool; }
+            set { _tool = value;  }
+        }
+
+        public Builder(string tool)
+        {
+            this._tool = tool;
+        }
+
+        public void Create()
+        {
+            Console.WriteLine($"The builder is creating buildings using {_tool}.");
+            Console.ReadKey();
+        }
+
+        public void Destroy()
+        {
+            Console.WriteLine($"The builder can destroy buildings using {_tool}.");
+            Console.ReadKey();
+        }
+
+        public int CompareTo(object obj)
+        {
+        IDeveloper dev = (IDeveloper)obj;
+        return _tool.CompareTo(dev.Tool);
+
+        }
+    }
+}
+
+using System;
+
+namespace HomeWork5
+{
+    public class Programmer : IDeveloper
+    {
+        private string _language;
+
+        public string Tool
+        {
+            get { return _language; }
+            set { _language = value; }
+        }
+
+        public Programmer(string language)
+        {
+            this._language = language;
+        }
+
+        public void Create()
+        {
+            Console.WriteLine($"The programmer is creating different apps using {_language} program language.");
+            Console.ReadKey();
+        }
+
+        public void Destroy()
+        {
+            Console.WriteLine($"The programmer can destroy his code sometimes, even he's using {_language}");
+            Console.ReadKey();
+        }
+
+        public int CompareTo(object obj)
+        {
+            IDeveloper dev = (IDeveloper)obj;
+            return _language.CompareTo(dev.Tool);
+
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace HomeWork5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<IDeveloper> devList = new List<IDeveloper>();
+
+            devList.Add(new Builder("Hammer and Nails"));
+            devList.Add(new Builder("Power Drill"));
+            devList.Add(new Builder("Saw"));
+            devList.Add(new Programmer("C#"));
+            devList.Add(new Programmer("Java"));
+            devList.Add(new Programmer("Python"));
+
+            devList.Sort();
+
+            foreach (var developer in devList)
+            {
+                developer.Create();
+                developer.Destroy();
+            }
+
+            //=== Second task ===================
+
+            Dictionary<uint,string> persons = new Dictionary<uint,string>();
+
+            uint keyPerson = 0;
+            string valuePerson = null;
+            uint idSerchingPerson = 0;
+            
+            Console.WriteLine("Enter 7 persons using an integer as user ID and a string as user name.");
+
+            try
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    Console.WriteLine("Enter user ID: ");
+                    keyPerson = Convert.ToUInt32(Console.ReadLine());
+                    Console.WriteLine("Enter user name: ");
+                    valuePerson = Convert.ToString(Console.ReadLine());
+                    persons.Add(keyPerson, valuePerson);
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Wrong format!");
+                Console.ReadKey();
+            }
+            
+
+            foreach (KeyValuePair<uint,string> keyValue in persons)
+            {
+                Console.WriteLine(keyValue.Key + " - " + keyValue.Value);
+            }
+            Console.ReadKey();
+
+
+            try
+            {
+                Console.WriteLine("Enter the ID of the user who you interested in: ");
+                idSerchingPerson = Convert.ToUInt32(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Wrong format!");
+                Console.ReadKey();
+            }
+
+            if (persons.TryGetValue(idSerchingPerson, out valuePerson))
+                Console.WriteLine($"The person's name with ID {idSerchingPerson} is " + valuePerson);
+            else
+                Console.WriteLine($"Oops! The person with ID {idSerchingPerson} doesn't exist.");
+
+            Console.ReadKey();
+        }
+    }
+}

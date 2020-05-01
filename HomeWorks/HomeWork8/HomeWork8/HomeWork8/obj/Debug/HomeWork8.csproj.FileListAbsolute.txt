@@ -1,0 +1,7 @@
+D:\Яна\C# SoftServe\HomeWorks\HomeWork8\HomeWork8\HomeWork8\bin\Debug\HomeWork8.exe.config
+D:\Яна\C# SoftServe\HomeWorks\HomeWork8\HomeWork8\HomeWork8\bin\Debug\HomeWork8.exe
+D:\Яна\C# SoftServe\HomeWorks\HomeWork8\HomeWork8\HomeWork8\bin\Debug\HomeWork8.pdb
+D:\Яна\C# SoftServe\HomeWorks\HomeWork8\HomeWork8\HomeWork8\obj\Debug\HomeWork8.csprojAssemblyReference.cache
+D:\Яна\C# SoftServe\HomeWorks\HomeWork8\HomeWork8\HomeWork8\obj\Debug\HomeWork8.csproj.CoreCompileInputs.cache
+D:\Яна\C# SoftServe\HomeWorks\HomeWork8\HomeWork8\HomeWork8\obj\Debug\HomeWork8.exe
+D:\Яна\C# SoftServe\HomeWorks\HomeWork8\HomeWork8\HomeWork8\obj\Debug\HomeWork8.pdb

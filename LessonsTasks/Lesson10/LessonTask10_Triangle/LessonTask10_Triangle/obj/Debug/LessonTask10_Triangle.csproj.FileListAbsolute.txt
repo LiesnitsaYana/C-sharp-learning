@@ -1,0 +1,7 @@
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_Triangle\LessonTask10_Triangle\bin\Debug\LessonTask10_Triangle.exe.config
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_Triangle\LessonTask10_Triangle\bin\Debug\LessonTask10_Triangle.exe
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_Triangle\LessonTask10_Triangle\bin\Debug\LessonTask10_Triangle.pdb
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_Triangle\LessonTask10_Triangle\obj\Debug\LessonTask10_Triangle.csprojAssemblyReference.cache
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_Triangle\LessonTask10_Triangle\obj\Debug\LessonTask10_Triangle.csproj.CoreCompileInputs.cache
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_Triangle\LessonTask10_Triangle\obj\Debug\LessonTask10_Triangle.exe
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_Triangle\LessonTask10_Triangle\obj\Debug\LessonTask10_Triangle.pdb

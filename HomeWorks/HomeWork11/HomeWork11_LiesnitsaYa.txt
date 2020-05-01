@@ -1,0 +1,92 @@
+using System;
+
+namespace HomeWork11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Student stud = new Student();
+            Parent mother = new Parent();
+            Accountancy accountancy = new Accountancy();
+
+            MyDel eventMother = mother.OnMarkChange;
+            MyDel eventAccountancy = accountancy.PayingFellowship;
+
+            stud.Name = "Josefina";
+
+            stud.MarkChange += eventMother;
+            stud.MarkChange += eventAccountancy;
+
+            stud.AddMark(65);
+            stud.AddMark(71);
+            stud.AddMark(95);
+
+            Console.ReadKey();
+
+        }
+    }
+}
+using System.Collections.Generic;
+
+namespace HomeWork11
+{
+    public delegate void MyDel(int m);
+
+    public class Student
+    {
+        private string name;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public List<int> marks = new List<int>();
+
+        public event MyDel MarkChange;
+
+        public void AddMark(int markAdded)
+        {
+            marks.Add(markAdded);
+            MarkChange?.Invoke(markAdded);
+        }
+
+    }
+}
+using System;
+
+namespace HomeWork11
+{
+    public class Parent : Student
+    {
+        public void OnMarkChange(int markAdded)
+        {
+            Console.WriteLine($"MOTHER: My daughter has this new mark: {markAdded}.");
+        }
+    }
+}
+using System;
+using System.Linq;
+
+namespace HomeWork11
+{
+    public class Accountancy : Student
+    {
+        public void PayingFellowship(int markAdded)
+        {
+            marks.Add(markAdded);
+            double average = marks.Average();
+            if (average >= 71)
+            {
+                Console.WriteLine($"ACCOUNTMENT: Good news! This student will have the scholarship. " +
+                                  $"The average of all her marks is {average}.");
+            }
+            else
+            {
+                Console.WriteLine($"ACCOUNTMENT: Unfortunately this student will not have the scholarship. " +
+                                  $"The average of all her marks is {average}.");
+            }
+        }
+    }
+}

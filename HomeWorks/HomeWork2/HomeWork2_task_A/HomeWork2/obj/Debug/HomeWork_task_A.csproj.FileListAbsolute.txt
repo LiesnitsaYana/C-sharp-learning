@@ -1,0 +1,7 @@
+D:\Яна\QA\Softserve\C#\HomeWork2\HomeWork2_task_A\HomeWork2\bin\Debug\HomeWork2.exe.config
+D:\Яна\QA\Softserve\C#\HomeWork2\HomeWork2_task_A\HomeWork2\bin\Debug\HomeWork2.exe
+D:\Яна\QA\Softserve\C#\HomeWork2\HomeWork2_task_A\HomeWork2\bin\Debug\HomeWork2.pdb
+D:\Яна\QA\Softserve\C#\HomeWork2\HomeWork2_task_A\HomeWork2\obj\Debug\HomeWork_task_A.csprojAssemblyReference.cache
+D:\Яна\QA\Softserve\C#\HomeWork2\HomeWork2_task_A\HomeWork2\obj\Debug\HomeWork_task_A.csproj.CoreCompileInputs.cache
+D:\Яна\QA\Softserve\C#\HomeWork2\HomeWork2_task_A\HomeWork2\obj\Debug\HomeWork2.exe
+D:\Яна\QA\Softserve\C#\HomeWork2\HomeWork2_task_A\HomeWork2\obj\Debug\HomeWork2.pdb

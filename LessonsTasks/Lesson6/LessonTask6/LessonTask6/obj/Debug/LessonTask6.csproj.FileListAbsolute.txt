@@ -1,0 +1,7 @@
+D:\Яна\C# SoftServe\LessonsTasks\Lesson6\LessonTask6\LessonTask6\bin\Debug\LessonTask6.exe.config
+D:\Яна\C# SoftServe\LessonsTasks\Lesson6\LessonTask6\LessonTask6\bin\Debug\LessonTask6.exe
+D:\Яна\C# SoftServe\LessonsTasks\Lesson6\LessonTask6\LessonTask6\bin\Debug\LessonTask6.pdb
+D:\Яна\C# SoftServe\LessonsTasks\Lesson6\LessonTask6\LessonTask6\obj\Debug\LessonTask6.csprojAssemblyReference.cache
+D:\Яна\C# SoftServe\LessonsTasks\Lesson6\LessonTask6\LessonTask6\obj\Debug\LessonTask6.csproj.CoreCompileInputs.cache
+D:\Яна\C# SoftServe\LessonsTasks\Lesson6\LessonTask6\LessonTask6\obj\Debug\LessonTask6.exe
+D:\Яна\C# SoftServe\LessonsTasks\Lesson6\LessonTask6\LessonTask6\obj\Debug\LessonTask6.pdb

@@ -1,0 +1,7 @@
+D:\Яна\C#\Lesson5\LessonTask5\LessonTask5\bin\Debug\LessonTask5.exe.config
+D:\Яна\C#\Lesson5\LessonTask5\LessonTask5\bin\Debug\LessonTask5.exe
+D:\Яна\C#\Lesson5\LessonTask5\LessonTask5\bin\Debug\LessonTask5.pdb
+D:\Яна\C#\Lesson5\LessonTask5\LessonTask5\obj\Debug\LessonTask5.csprojAssemblyReference.cache
+D:\Яна\C#\Lesson5\LessonTask5\LessonTask5\obj\Debug\LessonTask5.csproj.CoreCompileInputs.cache
+D:\Яна\C#\Lesson5\LessonTask5\LessonTask5\obj\Debug\LessonTask5.exe
+D:\Яна\C#\Lesson5\LessonTask5\LessonTask5\obj\Debug\LessonTask5.pdb

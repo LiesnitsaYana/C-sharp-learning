@@ -1,0 +1,130 @@
+using System;
+
+namespace HomeWork3_TaskA
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a text: ");
+            string userInputFromConsole = Convert.ToString(Console.ReadLine()); 
+            Console.WriteLine("The number of chars 'a', 'o', 'i', 'e' is: {0}", CountMethod(userInputFromConsole));
+            Console.ReadKey();
+
+        }
+
+        public static int CountMethod(string userInput)
+        {
+            int charsCounter = 0; 
+
+            for (int i = 0; i < userInput.Length; i++)
+            {
+                if (userInput[i] == 'a' || userInput[i] == 'o' || userInput[i] == 'i' || userInput[i] == 'e')
+                    charsCounter++;
+            }
+
+            return charsCounter;
+        }
+    }
+}
+===========================================
+using System;
+
+
+public class TaskB
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Enter a month number: ");
+        int monthNumberFromUser = Convert.ToInt32(Console.ReadLine());
+        MonthInfoByNumber(monthNumberFromUser);
+
+    }
+
+    public static void MonthInfoByNumber(int monthNumber)
+    { 
+        switch (monthNumber)
+        {
+            case 1:
+                Console.Write("This is January. This month has 31 days. \n");
+                break;
+            case 3:
+                Console.Write("This is March. This month has 31 days. \n");
+                break;
+            case 5:
+                Console.Write("This is May. This month has 31 days. \n");
+                break;
+            case 7:
+                Console.Write("This is July. This month has 31 days. \n");
+                break;
+            case 8:
+                Console.Write("This is August. This month has 31 days. \n");
+                break;
+            case 10:
+                Console.Write("This is October. This month has 31 days. \n");
+                break;
+            case 12:
+                Console.Write("This is January. This month has 31 days. \n");
+                break;
+            case 2:
+                Console.Write("This is February. This month has 28 days. When year is leap one, February has 29 days.\n");
+                break;
+            case 4:
+                Console.Write("This is April. This month has 30 days. \n");
+                break;
+            case 6:
+                Console.Write("This is June. This month has 30 days. \n");
+                break;
+            case 9:
+                Console.Write("This is September. This month has 30 days. \n");
+                break;
+            case 11:
+                Console.Write("This is November. This month has 30 days. \n");
+                break;
+            default:
+                Console.Write("invalid Month number.\nPlease try again ....\n");
+                break;
+        }
+
+        Console.ReadKey();
+    }
+}
+======================================================
+using System;
+
+namespace TaskC
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            CulculatingIntegerNumbers();
+
+        }
+
+        public static void CulculatingIntegerNumbers()
+        {
+            int number = 0;
+            int sumOfNumbers = 0;
+            int productOfNumbers = 1;
+            bool isNumberNegative = false;
+
+            Console.WriteLine("Enter 10 numbers (both: positive and negative): ");
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Entered number {0} is ", i + 1);
+                number = Convert.ToInt32(Console.ReadLine());
+                if (i < 5 && number < 0)
+                    isNumberNegative = true;
+                if (i < 5) sumOfNumbers += number;
+                if (i >= 5) productOfNumbers *= number;
+            }
+            Console.WriteLine(isNumberNegative ? "Sum of the first 5 elements is {0}" :
+                "Product of the last 5 elements is {1}", sumOfNumbers, productOfNumbers);
+
+            Console.ReadKey();
+        }
+    }
+}

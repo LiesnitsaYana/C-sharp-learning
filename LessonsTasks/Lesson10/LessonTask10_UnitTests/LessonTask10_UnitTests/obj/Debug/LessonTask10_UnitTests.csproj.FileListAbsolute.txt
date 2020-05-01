@@ -1,0 +1,7 @@
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_UnitTests\LessonTask10_UnitTests\bin\Debug\LessonTask10_UnitTests.exe.config
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_UnitTests\LessonTask10_UnitTests\bin\Debug\LessonTask10_UnitTests.exe
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_UnitTests\LessonTask10_UnitTests\bin\Debug\LessonTask10_UnitTests.pdb
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_UnitTests\LessonTask10_UnitTests\obj\Debug\LessonTask10_UnitTests.csprojAssemblyReference.cache
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_UnitTests\LessonTask10_UnitTests\obj\Debug\LessonTask10_UnitTests.csproj.CoreCompileInputs.cache
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_UnitTests\LessonTask10_UnitTests\obj\Debug\LessonTask10_UnitTests.exe
+D:\Яна\C# SoftServe\LessonsTasks\Lesson10\LessonTask10_UnitTests\LessonTask10_UnitTests\obj\Debug\LessonTask10_UnitTests.pdb

@@ -1,0 +1,11 @@
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\bin\Debug\HomeWork4.exe.config
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\bin\Debug\HomeWork4.exe
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\bin\Debug\HomeWork4.pdb
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.csprojAssemblyReference.cache
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.csproj.CoreCompileInputs.cache
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.exe
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.pdb
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\bin\Debug\netstandard.dll
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\bin\Debug\System.Runtime.Serialization.dll
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\bin\Debug\System.ServiceModel.Web.dll
+D:\Яна\C# SoftServe\HomeWorks\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.csproj.CopyComplete
